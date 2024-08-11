@@ -17,15 +17,15 @@ Saves the extracted data into a JSON file and the URLs into a separate JSON file
 <h3>ARP and DNS Spoofing Experiments</h3>
 This part involves conducting ARP spoofing and DNS spoofing experiments on a local network using NetfilterQueue and Scapy. Additionally, I used Snort to detect Man-in-the-Middle (MITM) attacks.
 
-Experiment Overview
-ARP Spoofing: Redirects network traffic by sending false ARP messages.
-DNS Spoofing: Redirects DNS queries to a malicious server.
+**Experiment Overview** 
+- **ARP Spoofing**: Redirects network traffic by sending false ARP messages.
+- **DNS Spoofing**: Redirects DNS queries to a malicious server.
 MITM Detection: Uses Snort to detect and alert on MITM attacks.
 
 <h3>Detecting Web Crawlers</h3>
 The final part of the project is theoretical research on how to detect web crawlers. This includes methods such as analyzing user-agent strings, monitoring request patterns, and using honeypots.
 
-Key Points
-User-Agent Analysis: Identifying bots based on their user-agent strings.
-Request Patterns: Detecting unusual request patterns that indicate automated behavior.
-Honeypots: Setting up traps to identify and block malicious bots.
+**Key Points**
+- **User-Agent Analysis**: Identifying bots based on their user-agent strings.
+- **Request Patterns**: Detecting unusual request patterns that indicate automated behavior.
+- **Honeypots**: Setting up traps to identify and block malicious bots.
